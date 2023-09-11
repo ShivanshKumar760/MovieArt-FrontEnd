@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- Forms are the way to collect data from the user they 
+    have input fields and submit buttom -->
+    <form>
+        <input type="text" placeholder="type something">
+        <input type="password" placeholder="password">
+        <input type="number" placeholder="choose number">
+        <!-- We can also provide name  -->
+        <label>Name</label>
+        <input type="text">
+        <!-- Now we need to specify name and id so that when user click submit
+        the server knows which data is submited-->
+        <input type="text" name="user_id" id="user_if" >
+        <!-- And then when we have id and name we can link our label to that input  -->
+        <label for="user_id">UserId</label>
+
+        <!-- Buttons -->
+        <label for="Shivansh">Shivansh</label>
+        <input type="checkbox" name="Shivansh" id="Shivansh" value="shiv">
+        <!-- Now when we will click the check box the value mentioned in the input tag
+        will be sent to server -->
+        <label for="radio">Radio</label>
+        <input type="radio" name="radio" id="radio" value="this is radio">
+
+        <!-- Submit buttom -->
+        <input type="submit" value="send">
+    </form>
+</body>
+</html>
