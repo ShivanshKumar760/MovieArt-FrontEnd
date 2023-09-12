@@ -1,0 +1,44 @@
+/* So  now in css we can do a lot of stuff with background related property
+
+like setting the background color of the page 
+
+or increasing and decreasing the opacity of the background-color of the page and even
+
+styling the page with background-image
+*/
+body
+{
+    background-color: lightblue;
+    /* We can even set the opacity of the page 
+    but the opacity should range b/w 0 to 1 
+    
+    where smaller value is more transparent and 
+    higher value are opaque*/
+
+    opacity: 0.4;
+    
+}
+
+div
+{
+    /* We can even set the background-image 
+    with css url function*/
+   
+    background-image: url("https://images.crunchbase.com/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/ikqra03zdnggljdu5vv0");
+    
+    /* Now the background image wont be visible to us 
+    cause the div is only taking up the space required by the 
+    h1 tag in terms of heigth and we can chage that */
+
+    height: 400px;
+
+    /* We will learn about widhth and heigth in later module
+    under box-model */
+    /* We provide here the color property
+    color:white;
+    
+    all the child element will inherit those property*/
+
+    color:white;
+
+}
