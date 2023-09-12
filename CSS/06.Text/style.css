@@ -1,0 +1,61 @@
+h1
+{
+    text-align: center;
+}
+h2
+{
+    /* justify means when in a line there are 
+    more than one word the space b/w them will be equal */
+    text-align: justify;
+}
+
+h3
+{
+    /* The last line will get center */
+    text-align-last: center;
+}
+
+h4,h5
+{
+    text-decoration-line:underline;
+    text-decoration-line:overline;
+    /* the above overline will override the above
+    underline but we can have both */
+    text-decoration-line:overline underline;
+    text-decoration-color:blue;
+    text-decoration-style:dotted;
+    text-decoration-thickness:5px; 
+    /* But we can have all the above in one line */
+
+    text-decoration: overline red solid 5px;
+}
+
+a
+{
+    /* A html link has a underlining and we can remove 
+    that via using text-decoration and setting it to
+    nun */
+
+    text-decoration: none;
+}
+
+.p1
+{
+    text-transform: uppercase;
+}
+
+.p2
+{
+    text-transform: lowercase;
+}
+
+.p3
+{
+    text-transform: capitalize;
+}
+.p4
+{
+    text-indent: 30px;
+    letter-spacing: 6px;
+}
+

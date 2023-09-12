@@ -1,0 +1,23 @@
+h1,h2
+{
+    /* outline is just like border it it also wraps the element inside it .
+    Just like border it has it is own style */
+    outline-style: dashed;
+    outline-width: 4px;
+    outline-color: red;
+}
+
+h3
+{
+    outline:5px dashed blue;
+}
+
+h4
+{
+    /* We can also use both border and outline */
+    border:5px dotted green;
+    outline: 4px solid red;
+    /* We can also give space b/w outline and 
+    border using outline-offset */
+    outline-offset: 7px;
+}

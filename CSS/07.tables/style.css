@@ -1,0 +1,38 @@
+table{
+    border:solid 4px;
+  
+}
+
+th
+{
+    border:solid 2px;
+    width: 70px;
+    height: 50px;
+}
+
+td
+{
+    border: solid 2px;
+    width: 70px;
+}
+
+/* We can even collapse the border */
+
+table,th,td
+{
+    border-collapse: collapse;
+}
+td
+{
+    text-align: center;
+}
+
+/* We also have pseudo element in css which gets applied on 
+our actual html element to provide them functionality and 
+one of them is hove ie when we hover our mouse on perticular element
+certain things change */
+
+tr:hover
+{
+    background-color: lightblue;
+}
